@@ -1,0 +1,47 @@
+.sobremi{
+    display: flex;
+    justify-content: center;
+}
+.container-sobremi{
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    font-size: large;
+    color: azure;
+    gap: 5rem;
+    align-items: center;
+}
+
+.img_perfil{
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+
+     .container-sobremi{
+        width: 100%;
+        padding: 1;
+        margin-top: 1rem;
+        line-height: 2.5rem;
+        font-size: small;
+        flex-direction: column;
+    }
+   
+}
+
+/* pantalla mediana*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container-sobremi {
+        width: 75%;
+    }
+}
+
+/*pantallas anchas*/
+@media (min-width: 1024px) {
+    .container-sobremi {
+        width: 50%;
+    }
+    
+}
